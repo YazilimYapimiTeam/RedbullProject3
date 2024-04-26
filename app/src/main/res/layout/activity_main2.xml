@@ -12,6 +12,9 @@
         android:layout_width="976dp"
         android:layout_height="1174dp"
         app:srcCompat="@drawable/blue"
+        android:contentDescription="@string/sample_image_description"
         tools:layout_editor_absoluteX="-272dp"
-        tools:layout_editor_absoluteY="-308dp" />
+        tools:layout_editor_absoluteY="-308dp"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
