@@ -8,22 +8,165 @@
     tools:context=".MainActivity2">
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="976dp"
-        android:layout_height="1174dp"
-        android:contentDescription="@string/sample_image_description"
-        app:srcCompat="@drawable/blue"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-272dp"
-        tools:layout_editor_absoluteY="-308dp" />
+        android:id="@+id/imageView6"
+        android:layout_width="86dp"
+        android:layout_height="131dp"
+        android:rotation="-37"
+        app:srcCompat="@drawable/sise"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="639dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="561dp"
         android:text="Button"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="154dp" />
+        app:layout_constraintBottom_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="415dp"
+        android:layout_height="405dp"
+        android:layout_marginBottom="444dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/image1" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/section" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="287dp"
+        android:layout_height="550dp"
+        android:layout_marginBottom="60dp"
+        android:shape="rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/section" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="446dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Sign Up"
+        android:textColor="#2C32C3"
+        android:textColorHighlight="#2C32C3"
+        android:textColorHint="#2C32C3"
+        android:textColorLink="#2C32C3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.404"
+        app:rippleColor="#2C32C3"
+        app:strokeColor="#2C32C3" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="128dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:srcCompat="@drawable/redbull_1" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="446dp"
+        android:backgroundTint="#2C32C3"
+        android:text="Log In"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#2C32C3"
+        android:textColorHint="#2C32C3"
+        android:textColorLink="#2C32C3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.404"
+        app:rippleColor="#2C32C3"
+        app:strokeColor="#2C32C3" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="121dp"
+        android:layout_height="178dp"
+        app:srcCompat="@drawable/sise"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="595dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="260dp"
+        android:ems="10"
+        android:hint="Enter your email or username"
+        android:inputType="textEmailAddress"
+        android:textColorHighlight="#FFFFFF"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#2C32C3"
+        android:text="Log In"
+        android:textColorLink="#3F51B5"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/facebook"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="529dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/linkdn"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="529dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="59dp"
+        android:layout_height="58dp"
+        app:srcCompat="@drawable/instagram"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="529dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
